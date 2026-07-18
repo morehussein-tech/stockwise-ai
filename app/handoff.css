@@ -1,0 +1,31 @@
+.prompt-preview {
+  padding: 18px 20px;
+  max-height: 330px;
+  overflow: auto;
+  background: #fbfcfb;
+}
+
+.prompt-preview pre {
+  white-space: pre-wrap;
+  margin: 0;
+  font: 11px/1.55 "DM Sans", sans-serif;
+  color: #46524c;
+}
+
+.handoff-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 14px 18px;
+  border-top: 1px solid var(--line);
+}
+
+.handoff-actions .primary-button {
+  margin: 0;
+  text-decoration: none;
+}
+
+.handoff-actions .outline-button {
+  padding: 12px 15px;
+}
